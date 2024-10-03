@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>URL Blocker</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 10px;
+            width: 200px;
+        }
+        input {
+            width: 100%;
+            padding: 5px;
+            margin-bottom: 5px;
+        }
+        button {
+            width: 100%;
+            padding: 5px;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+    </style>
+</head>
+<body>
+    <h3>Block a URL</h3>
+    <input type="text" id="urlInput" placeholder="Enter URL to block" />
+    <button id="addButton">Add URL</button>
+    <h4>Blocked URLs</h4>
+    <ul id="blockedList"></ul>
+    <script src="popup.js"></script>
+</body>
+</html>
